@@ -52,6 +52,25 @@
                     padding: 0 0 10px 10px;
                 } 
             }
+            .btn-lg {
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+            }
+            .img-responsive {
+                display: block;
+                width: 500px \9;
+                max-width: 100%;
+                height: auto;
+            }
+            h1{
+                text-align: center;
+                alignment-adjust: central;
+            }
+            .logo{
+                display: block;
+                padding-bottom: 20px;
+            }
 
         </style>
 
@@ -67,37 +86,39 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="col-sm-4 hidden-xs">
-                <a href="#"><img src="assets/img/maison.png" alt="logo"></a>
+                    <a href="#"><img src="assets/img/maison.png" alt="logo"class="logo"></a>
                 </div>
                 <div class="col-sm-8 col-xs-12">
-                <h1>La maison de l'architecte</h1> 
+                    <h1>La maison de l'architecte</h1> 
                 </div>
             </div>
         </header>
         <nav>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
 
-                    <div class="col-lg-8 col-sm-12 col-xs-12" id="left">
-                        <a href="#"><img src="assets/img/city1.jpg" alt="Nos réalisations"></a>
+                    <div class="col-xs-12 col-md-12 col-lg-8" id="left">
+                        <a href="#"><img src="assets/img/city1.jpg" alt="Nos réalisations"class="img-responsive"></a>
                     </div>
-                    <div class="col-lg-4 col-sm-6 col-xs-12" id="side1">
-                    <div>
-                        <a href="#"><img src="assets/img/side1.jpg" alt="Nos projets"></a>
-                    </div>
-                    <div id="side2">
-                        <a href="#"><img src="assets/img/side2.jpg" alt="Notre ambition"></a>
-                    </div>
+                    <div class="col-xs-12 col-lg-4">
+                        <div class="clear"
+                        <div id="side1">
+                            <a href="#"><img src="assets/img/side1.jpg" alt="Nos projets"class="img-responsive"></a>
+                        </div>
+                        <div id="side2">
+                            <a href="#"><img src="assets/img/side2.jpg" alt="Notre ambition"class="img-responsive"></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <hr>
-
-        <footer>
+    <hr>
+    <div class="container-fluid"
+         <footer>
             <p class="col-xs-8 col-xs-offset-4"> 
                 <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-twitter fa-2x"></i></a>
                 <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-facebook fa-2x"></i></a>
