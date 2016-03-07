@@ -1,0 +1,59 @@
+/* Styles de base */
+      body {
+        font-family: 'Bitter', serif;
+        background-color: #eef;
+        color: #259;
+          overflow-x: hidden;
+      }
+        header{
+            text-align: center;
+        }
+        
+        header img{
+            margin-top: 15px;
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+      nav img {
+        width: 100%;
+      }
+        h1{
+            padding-top: 15px;
+        }
+        footer{
+            margin-top: 15px;
+            text-align: center;
+        }
+        .btn{
+            padding: 6px 0 0 0;
+        }
+        .btn-lg {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px; 
+        }
+      /* Styles pour les smartphones */
+      #left, #side1, #side2 {
+        padding: 10px 10px 0 10px;
+      }
+
+
+      /* Styles pour les tablettes */
+      @media (min-width: 768px) {
+        #left{
+          padding: 0;
+        } 
+        #side1 {
+          padding: 10px 5px 0 0;
+        } 
+        #side2 {
+          padding: 10px 0 0 5px;
+        }
+      }
+
+      /* Styles pour les écrans moyens et grands */
+      @media (min-width: 992px) {
+        #side1, #side2 {
+          padding: 0 0 10px 10px;
+        } 
+      }
